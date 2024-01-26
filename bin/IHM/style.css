@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Add global styles to your application */
+.root {
+    -fx-font-size: 14px;
+    -fx-padding:20px;
+}
+
+/* Add styles for the ListView */
+.list-view {
+    -fx-background-color: #dcd7d7;
+}
+
+/* Add styles for the search bar */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+}
+
+/* Add styles for buttons */
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #749adb;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #7a8cac;
+}
+
+/* Add styles for labels */
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* Add styles for the TitledPane */
+.titled-pane {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+}
+
+/* Add styles for the detailLabel */
+#detailLabel {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-padding: 10px;
+}
+
+/* Add styles for icons (ImageViews) */
+.image-view {
+    -fx-cursor: hand;
+}
+
+/* Add specific styles for your custom icons (adjust paths accordingly) */
+.avatar-icon {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+}
+
+.delete-icon {
+    -fx-fill: red;
+}
+
+.update-icon {
+    -fx-fill: blue;
+}
+
+.search-icon {
+    -fx-fill: #555555;
+}
+
+/* Add styles for the HBox and VBox */
+.hbox {
+    -fx-spacing: 10px;
+}
+
+.vbox {
+    -fx-spacing: 20px;
+    -fx-padding: 20px;
+}
+
+/* Add styles for the Scene */
+.scene {
+    -fx-background-color: #f9f9f9;
+}

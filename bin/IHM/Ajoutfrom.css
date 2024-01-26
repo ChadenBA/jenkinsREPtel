@@ -1,0 +1,52 @@
+
+#scene {
+    -fx-background-color: #f0ecec;
+    -fx-padding:20px;
+   
+}
+
+
+.label {
+    -fx-font-size: 14;
+    -fx-text-fill: #333333;
+}
+
+
+.text-field {
+    -fx-pref-width: 200;
+    -fx-padding: 5;
+    -fx-font-size: 14;
+}
+
+
+.button {
+    -fx-pref-width: 120;
+    -fx-padding: 10px 20px;
+    -fx-margin-left:20px;
+    -fx-font-size: 14;
+    -fx-background-color: #3c6d88; /* Green background color */
+    -fx-text-fill: white;
+
+}
+
+.button:hover {
+    -fx-background-color: #3d55cd; /* Dark green on hover */
+}
+
+/* Style radio buttons */
+.radio-button {
+    -fx-font-size: 14;
+    -fx-padding: 5;
+}
+
+/* Style HBox and VBox */
+.h-box, .v-box {
+    -fx-spacing: 10;
+    -fx-padding: 110;
+ 
+}
+
+/* Set alignment for the center of the scene */
+.center {
+    -fx-alignment: CENTER;
+}
