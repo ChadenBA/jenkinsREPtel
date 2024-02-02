@@ -5,7 +5,6 @@ FROM openjdk:17
 WORKDIR /app
 
 # Copy the current directory contents into the container at /app
-
 COPY . /app
 
 # Compile the Java code
