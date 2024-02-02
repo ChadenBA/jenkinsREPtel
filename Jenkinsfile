@@ -6,6 +6,7 @@ pipeline {
         dockerTool 'docker'
     }
 
+    
     environment {
         SCANNER_HOME = tool 'sonar-scanner'
     }
