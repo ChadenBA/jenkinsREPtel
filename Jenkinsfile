@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Git checkout') {
             steps {
-               git changelog: false, poll: false, url: 'https://github.com/ChadenBA/jenkinsREPtel.git'
+               git url: 'https://github.com/ChadenBA/jenkinsREPtel.git'
             }
         }
         
