@@ -5,7 +5,7 @@ FROM openjdk:17
 WORKDIR /app
 
 # Copy the current directory contents into the container at /app
-COPY ./app
+COPY . /app
 
 # Compile the Java code
 RUN javac -d ./target/classes ./src/Main.java
