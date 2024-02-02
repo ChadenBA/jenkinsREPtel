@@ -1,6 +1,8 @@
 
 # Jenkins Phone_Book_App CI/CD Pipeline
 
+
+
 This repository contains the source code and CI/CD pipeline for the REPtel application developed in JavaFX with MySQL. The CI/CD pipeline is implemented using Jenkins and includes stages such as Git Checkout, Compile, SonarQube Analysis, OWASP SCAN, Build Application, Build & Push Docker Image, and Trigger CD Pipeline.
 
 
